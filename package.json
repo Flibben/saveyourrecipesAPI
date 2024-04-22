@@ -1,0 +1,32 @@
+{
+  "name": "saveyourrecipesapi",
+  "version": "1.0.0",
+  "description": "Save, organize and remember the things you loved to cook and eat!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js",
+    "dev": "nodemon --watch src src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flibben/saveyourrecipesAPI.git"
+  },
+  "author": "Albin Jorenbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flibben/saveyourrecipesAPI/issues"
+  },
+  "homepage": "https://github.com/Flibben/saveyourrecipesAPI#readme",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
